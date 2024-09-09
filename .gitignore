@@ -1,0 +1,32 @@
+# WordPress core (if not versioning wordpress core)
+wordpress/
+!wordpress/.gitkeep
+
+# .env file
+.env
+
+# Uploaded files
+wordpress/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+wordpress/.htaccess
+
+# All plugins
+wordpress/wp-content/plugins/*
+# If you want to include specific plugins, use:
+# !wordpress/wp-content/plugins/your-custom-plugin/
+
+# All themes
+wordpress/wp-content/themes/*
+# If you want to include specific themes, use:
+# !wordpress/wp-content/themes/your-custom-theme/
+
+# Node modules
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
